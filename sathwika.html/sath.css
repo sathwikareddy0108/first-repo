@@ -1,0 +1,16 @@
+.container {
+    background-color: bisque;
+    font-size: medium;
+    color: black;
+}
+
+#ok {
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+}
+
+#information {
+    background-color: brown;
+    font-style: italic;
+}

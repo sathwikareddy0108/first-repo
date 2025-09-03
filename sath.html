@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARTOON</title>
+
+    <style>
+        .container {
+            background: linear-gradient(90deg, blue, white);
+            background-size: 200%, 200%;
+            border-radius: 30px;
+            padding: 30px;
+            font-size: 30px;
+            animation: wave-p 2s ease-in-out infinite, morph;
+        }
+
+        @keyframes wave-p {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes morph {
+            0% {
+                border-radius: 0% 50%;
+            }
+
+            50% {
+                border-radius: 20% 40%;
+            }
+
+            100% {
+                border-radius: 40% 60%;
+            }
+
+        }
+    </style>
+
+    <link rel="stylesheet" href="sath.css" />
+</head>
+
+
+<body>
+    <h1> DOREMON</h1>
+
+    <h3>characters</h3>
+    <fieldset>
+        <button style="font-style: italic;">doremon</button>
+        <button>nobita</button>
+        <button>shuzika</button>
+        <button>ziyan</button>
+
+        <div>
+            <p>
+                <span style="color: blue;">Doraemon</span> was conceived by Hiroshi Fujimoto following a series of three
+                events. Firstly, when searching for
+                ideas for a new manga, he wished that a machine existed that would come up with ideas for him. Secondly,
+                he
+                tripped over his daughter's toy. Thirdly, he heard cats fighting in his neighborhood
+            </p>
+        </div>
+    </fieldset>
+    <div class="container">
+        <p>dora1</p>
+        <p>dora2</p>
+        <p>dora3</p>
+        <p>dora4</p>
+        <p>dora5</p>
+        <p>dora6</p>
+        <p>dora7</p>
+        <p>dora8</p>
+        <p>dora9</p>
+    </div>
+    <div id="ok">
+        Hello Guys
+    </div>
+    <fieldset>
+        <h1>information</h1>
+        <input type="details" placeholder="enter name">details
+
+    </fieldset>
+</body>
+
+</html>
